@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "type": "gempa",
+        "title": "Gempa M 5.6",
+        "desc": "Pusat gempa 10 km barat laut kota X",
+        "date": "2025-11-21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.367, -7.782]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "type": "banjir",
+        "title": "Banjir Sungai A",
+        "desc": "Banjir bandang, evakuasi 200 jiwa",
+        "date": "2025-12-03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.828, -6.175]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "type": "letusan",
+        "title": "Letusan Gunung B",
+        "desc": "Abu tipis, status Siaga",
+        "date": "2025-10-11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.092, -8.34]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "type": "longsor",
+        "title": "Tanah Longsor",
+        "desc": "Jalan putus, material menutup akses",
+        "date": "2025-11-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.345, -0.789]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "type": "banjir",
+        "title": "Banjir Bandung Selatan",
+        "desc": "Curah hujan tinggi menyebabkan banjir di beberapa kecamatan",
+        "date": "2025-01-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.62692993978419, -6.989182969317753]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "type": "banjir",
+        "title": "Banjir Dayeuhkolot",
+        "desc": "Peningkatan debit Sungai Citarum memicu banjir",
+        "date": "2025-01-20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.64117286052283, -7.010656852993421]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "type": "banjir",
+        "title": "Banjir Lahat",
+        "desc": "Debit Sungai Lematang naik, puluhan rumah terendam",
+        "date": "2025-01-12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.532, -3.793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "type": "banjir",
+        "title": "Banjir Padang",
+        "desc": "Hujan ekstrem memicu banjir dan longsor kecil",
+        "date": "2024-12-29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.357, -0.95]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "type": "banjir",
+        "title": "Banjir Aceh Utara",
+        "desc": "4 kecamatan terdampak banjir musiman",
+        "date": "2025-01-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.168, 5.097]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "type": "letusan",
+        "title": "Erupsi Gunung Lewotobi Laki-Laki",
+        "desc": "Letusan berkelanjutan, status Siaga",
+        "date": "2024-12-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.775, -8.536]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "type": "letusan",
+        "title": "Erupsi Gunung Ruang",
+        "desc": "Letusan besar, evakuasi massal",
+        "date": "2024-05-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.37, 2.33]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "type": "gempa",
+        "title": "Gempa M 7.1 - Minahasa",
+        "desc": "Gempa besar terasa kuat di Sulawesi Utara",
+        "date": "2025-01-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.835, 1.32]
+      }
+    }
+  ]
+}
