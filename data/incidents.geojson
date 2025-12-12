@@ -18,34 +18,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 2,
-        "type": "banjir",
-        "title": "Banjir Sungai A",
-        "desc": "Banjir bandang, evakuasi 200 jiwa",
-        "date": "2025-12-03"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.828, -6.175]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 3,
-        "type": "letusan",
-        "title": "Letusan Gunung B",
-        "desc": "Abu tipis, status Siaga",
-        "date": "2025-10-11"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [115.092, -8.34]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 4,
         "type": "longsor",
         "title": "Tanah Longsor",
@@ -57,118 +29,247 @@
         "coordinates": [100.345, -0.789]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
-        "id": 11,
+        "id": 100,
         "type": "banjir",
-        "title": "Banjir Bandung Selatan",
-        "desc": "Curah hujan tinggi menyebabkan banjir di beberapa kecamatan",
-        "date": "2025-01-19"
+        "title": "Banjir - Jakarta (Kota Tua)",
+        "desc": "Genangan dan jalan tertutup air di area Kota Tua, Jakarta.",
+        "date": "2025-12-11"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [107.62692993978419, -6.989182969317753]
+        "coordinates": [106.8133, -6.1351]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": 12,
+        "id": 101,
         "type": "banjir",
-        "title": "Banjir Dayeuhkolot",
-        "desc": "Peningkatan debit Sungai Citarum memicu banjir",
-        "date": "2025-01-20"
+        "title": "Banjir - Bekasi (Tambun)",
+        "desc": "Banjir di sekitar Tambun, Bekasi.",
+        "date": "2025-12-10"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [107.64117286052283, -7.010656852993421]
+        "coordinates": [106.9796, -6.2938]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
-        "id": 5,
+        "id": 102,
         "type": "banjir",
-        "title": "Banjir Lahat",
-        "desc": "Debit Sungai Lematang naik, puluhan rumah terendam",
-        "date": "2025-01-12"
+        "title": "Banjir - Banjarmasin (Jl. Pangeran Antasari)",
+        "desc": "Air pasang dan banjir di jalan utama Banjarmasin.",
+        "date": "2025-12-09"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [103.532, -3.793]
+        "coordinates": [114.5890, -3.3292]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": 6,
+        "id": 103,
         "type": "banjir",
-        "title": "Banjir Padang",
-        "desc": "Hujan ekstrem memicu banjir dan longsor kecil",
-        "date": "2024-12-29"
+        "title": "Banjir - Bandung (Dayeuhkolot)",
+        "desc": "Luapan Sungai Citarum di area Dayeuhkolot.",
+        "date": "2025-12-08"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [100.357, -0.95]
+        "coordinates": [107.6412, -7.0107]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": 7,
+        "id": 104,
         "type": "banjir",
-        "title": "Banjir Aceh Utara",
-        "desc": "4 kecamatan terdampak banjir musiman",
-        "date": "2025-01-05"
+        "title": "Banjir Bandang - Aceh Tamiang",
+        "desc": "Banjir bandang dan longsor di Aceh Tamiang, korban jiwa ratusan. Sumber: BNPB",
+        "date": "2025-12-01",
+        "source_url": "https://www.bnpb.go.id",
+        "verified": true,
+        "severity": "tinggi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [97.168, 5.097]
+        "coordinates": [98.268, 4.257]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": 8,
-        "type": "letusan",
-        "title": "Erupsi Gunung Lewotobi Laki-Laki",
-        "desc": "Letusan berkelanjutan, status Siaga",
-        "date": "2024-12-30"
+        "id": 105,
+        "type": "banjir",
+        "title": "Banjir Bandang - Sumatera Utara",
+        "desc": "Banjir bandang dan tanah longsor di Sumatera Utara, terutama di Kabupaten Samosir dan sekitarnya. Sumber: BNPB, Kompas.com",
+        "date": "2025-12-01",
+        "source_url": "https://www.kompas.com/tag/bencana-alam",
+        "verified": true,
+        "severity": "tinggi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [122.775, -8.536]
+        "coordinates": [99.165, 2.533]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": 9,
-        "type": "letusan",
-        "title": "Erupsi Gunung Ruang",
-        "desc": "Letusan besar, evakuasi massal",
-        "date": "2024-05-17"
+        "id": 106,
+        "type": "banjir",
+        "title": "Banjir Bandang - Sumatera Barat (Pasaman Barat)",
+        "desc": "Banjir bandang dan longsor di Pasaman Barat dan sekitarnya. Sumber: BNPB",
+        "date": "2025-12-01",
+        "source_url": "https://www.bnpb.go.id",
+        "verified": true,
+        "severity": "tinggi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [125.37, 2.33]
+        "coordinates": [99.648, -1.243]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": 10,
+        "id": 107,
+        "type": "banjir",
+        "title": "Banjir - Denpasar (Bali)",
+        "desc": "Banjir di area Denpasar, Bali. Presiden Prabowo meninjau lokasi. Sumber: BNPB",
+        "date": "2025-12-05",
+        "source_url": "https://www.bnpb.go.id/berita-foto/presiden-prabowo-didampingi-kepala-bnpb-tinjau-lokasi-terdampak-banjir-denpasar",
+        "verified": true,
+        "severity": "sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.2125, -8.6705]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "type": "banjir",
+        "title": "Banjir - Jati Asih (Bekasi)",
+        "desc": "Banjir di Jati Asih, Bekasi. Kepala BNPB melakukan tinjau lokasi. Sumber: BNPB",
+        "date": "2025-12-07",
+        "source_url": "https://www.bnpb.go.id/berita-foto/kepala-bnpb-dampingi-wapres-gibran-tinjau-lokasi-banjir-di-jati-asih",
+        "verified": true,
+        "severity": "sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.1503, -6.2431]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 109,
         "type": "gempa",
-        "title": "Gempa M 7.1 - Minahasa",
-        "desc": "Gempa besar terasa kuat di Sulawesi Utara",
-        "date": "2025-01-10"
+        "title": "Gempa M 5.9 - Banda Aceh",
+        "desc": "Gempa bumi berkekuatan 5.9 SR terjadi di Banda Aceh, Aceh. Sumber: BMKG, BNPB",
+        "date": "2025-10-15",
+        "source_url": "https://www.bnpb.go.id",
+        "verified": true,
+        "severity": "sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.3167, 5.5283]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "type": "gempa",
+        "title": "Gempa M 6.2 - Sulawesi Utara",
+        "desc": "Gempa bumi berkekuatan 6.2 SR di Sulawesi Utara. Sumber: BMKG, BNPB",
+        "date": "2025-11-12",
+        "source_url": "https://www.bnpb.go.id",
+        "verified": true,
+        "severity": "sedang"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [124.835, 1.32]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 111,
+        "type": "letusan",
+        "title": "Aktivitas Gunung Merapi - Yogyakarta",
+        "desc": "Peningkatan aktivitas seismik dan emisi gas Gunung Merapi. Status ditingkatkan ke Waspada. Sumber: BNPB, PVMBG",
+        "date": "2025-11-25",
+        "source_url": "https://www.bnpb.go.id",
+        "verified": true,
+        "severity": "sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.4405, -7.5405]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 112,
+        "type": "letusan",
+        "title": "Aktivitas Gunung Semeru - Jawa Timur",
+        "desc": "Gunung Semeru menunjukkan aktivitas vulkanik dengan emisi abu. Status Waspada. Sumber: BNPB, PVMBG",
+        "date": "2025-12-03",
+        "source_url": "https://www.bnpb.go.id",
+        "verified": true,
+        "severity": "rendah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.8972, -8.1084]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 113,
+        "type": "longsor",
+        "title": "Tanah Longsor - Kulonprogo (DIY)",
+        "desc": "Tanah longsor di Kulonprogo, Yogyakarta akibat curah hujan tinggi. Sumber: BNPB",
+        "date": "2025-11-18",
+        "source_url": "https://www.bnpb.go.id",
+        "verified": true,
+        "severity": "sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.2583, -7.8547]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 114,
+        "type": "longsor",
+        "title": "Tanah Longsor - Lebak (Banten)",
+        "desc": "Tanah longsor di Lebak, Banten menutup akses jalan. Sumber: BNPB",
+        "date": "2025-10-22",
+        "source_url": "https://www.bnpb.go.id",
+        "verified": true,
+        "severity": "sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.2308, -6.9147]
       }
     }
   ]
