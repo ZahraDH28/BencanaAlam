@@ -6,20 +6,20 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 function icon(name) {
     return L.divIcon({
-        html: `<img src="icons/${name}" class="disaster-icon">`,
+        html: `<img src="Icons/${name}" class="disaster-icon">`,
         iconSize: [42, 42],
         className: ""
     });
 }
 
-const icons = {
-  gempa: "Icons/gempa.png",
-  banjir: "Icons/flood.png",
-  letusan: "Icons/eruption.png",
-  longsor: "Icons/landslide.png",
-  hurricane: "Icons/hurricane.png",
-  tornado: "Icons/tornado.png",
-  wildfire: "Icons/wildfire.png"
+const iconMap = {
+  gempa: icon("gempa.png"),
+  banjir: icon("flood.png"),
+  letusan: icon("eruption.png"),
+  longsor: icon("landslide.jpg"),
+  hurricane: icon("huricane.png"),
+  tornado: icon("tornado.png"),
+  wildfire: icon("wildfire.png")
 };
 
 var clusterGroup = L.markerClusterGroup({
