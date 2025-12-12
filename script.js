@@ -12,14 +12,14 @@ function icon(name) {
     });
 }
 
-const iconMap = {
-    "gempa": icon("gempa.png"),
-    "banjir": icon("flood.png"),
-    "letusan": icon("eruption.png"),
-    "longsor": icon("longsor.png"),
-    "tornado": icon("tornado.png"),
-    "hurricane": icon("hurricane.png"),
-    "wildfire": icon("wildfire.png")
+const icons = {
+  gempa: "Icons/gempa.png",
+  banjir: "Icons/flood.png",
+  letusan: "Icons/eruption.png",
+  longsor: "Icons/landslide.png",
+  hurricane: "Icons/hurricane.png",
+  tornado: "Icons/tornado.png",
+  wildfire: "Icons/wildfire.png"
 };
 
 var clusterGroup = L.markerClusterGroup({
